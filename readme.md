@@ -45,7 +45,7 @@ kafka-mirrors --create --mirror-topic from-west --link bidirectional-link \
 
 
 
-# Active/Active
+# [Active/Active](https://docs.confluent.io/cloud/current/multi-cloud/cluster-linking/dr-failover.html#active-active-tutorial)
 
 # create west link
 kafka-cluster-links --create --link bidirectional-link \
